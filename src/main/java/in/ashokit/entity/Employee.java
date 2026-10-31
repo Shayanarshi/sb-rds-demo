@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class Employee {
     @Id
-    private  Integer Empno;
+    private  Integer empno;
 
     private String ename;
 
