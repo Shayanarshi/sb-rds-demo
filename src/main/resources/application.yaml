@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: sb-rds-demo
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.cns6a82qmqgj.ap-south-1.rds.amazonaws.com/test_db
+    username: admin
+    password: admin_123
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
